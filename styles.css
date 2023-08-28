@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #88D4F2;
+    color: aliceblue;
+}
+header{
+    background-color: #3F8EBF;
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.grid-item{
+    border: 1px solid #3F8EBF;
+    padding: 1rem;
+}
+.footer{
+    background-color: #3F8EBF;
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+}
